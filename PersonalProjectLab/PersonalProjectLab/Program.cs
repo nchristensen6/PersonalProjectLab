@@ -6,7 +6,7 @@ namespace PersonalProjectLab
     {
         static void Main(string[] args)
         {
-            EmptyClass.GetPitch();
+            Console.WriteLine(EmptyClass.GetPitch());
         }
     }
 }
