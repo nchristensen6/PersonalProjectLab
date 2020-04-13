@@ -3,11 +3,9 @@ namespace PersonalProjectLab
 {
     public class EmptyClass
     {
-        public static string GetPitch()
+        public static string GetPitch(int BattingOrder)
         {
-            Console.WriteLine("Please input the number that you are currently at in the batting order from 1 to 9");
-            string BatterNumber = Console.ReadLine();
-            int BattingOrder = Convert.ToInt32(BatterNumber);
+          
             string choice = null;
             if (BattingOrder == 1)
             {
